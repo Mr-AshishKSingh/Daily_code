@@ -26,10 +26,12 @@ int reverse::rev(int n){
 };
 
 int main(){
-    int x;
+    int x,a;
     reverse d;
+    cout << " PLEASE ENTER A NMUMBER " << endl;
+    cin >> a;
 
-    x=d.rev(785);
+    x=d.rev(a);
     cout << x;
     return 0;
 }
