@@ -56,7 +56,7 @@ long int band_gap::insulator1(){
 long int band_gap::semiconductor1(){
     from_semiconductor = 0.5;
     to_semiconductor = 2.5 ;
-    cout << " FROM " << from_semiconductor << " TO " << to_semiconductor << endl;
+    cout << " FROM " << from_semiconductor << " TO 2" << to_semiconductor << endl;
     return 0;
 
 };
@@ -69,6 +69,7 @@ long int band_gap::conductors1(){
 };
 
 int main(){
+    // system("cls");
     int a,b;
     resistivity order1;
     band_gap order2;
