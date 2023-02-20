@@ -4,31 +4,23 @@ using namespace std;
 class ashish{
     private:
     int number , number1  ,  pwr1 ,pwr , pwr2,  i;
-    long int number3;
+    long int number3 = 1;
     float number2 , number4, number5 ,array[100] , array1[100];
     public:
     void power(int number , int pwr){
         number1 = number;
-        number3 = number ;
+        number3 = 1 ;
         cout << "The square of " << number1 << " : " << number1*number1 << endl;
         cout << "The cube of " << number1 << " : " << number1*number1*number1 << endl;
-        for(i=0 ; i<pwr ; i++)
-        {
-            array[i] = number1;
-        };
-
-        for(i=0 ; i<pwr-1 ; i++)
-        {
-            number3 = number3 * array[i];
-        };
-        
         // for(i=0 ; i<pwr ; i++)
         // {
-        //     cout << array[i]<< endl;
-        // }
+        //     array[i] = number1;
+        // };
 
-        // cout << " value  in number 2 is : " << number2 << endl;
-
+        for(i=1 ; i<=pwr ; i++)
+        {
+            number3 = number3 * number1;
+        };
         cout << "The " << number1 << " to the power of " << pwr << " : " << number3 << endl;
 
     }; 
