@@ -58,7 +58,7 @@ int chk::chk_max(){
     
     for(i=0 ; i<n ; i++){
         if(max<array[i]){
-            max = array[i];
+            max = array[i];;
         }
     }
     
