@@ -24,6 +24,7 @@ void RectangleArea::display_area()
 };
 
 int main(){
+    cout << "ITS CODE BY ASHISH "<< endl;
     RectangleArea aa;
     aa.read_input();
     aa.display_area();
