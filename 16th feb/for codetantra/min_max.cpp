@@ -12,19 +12,15 @@ class chk{
     
     private:
     int n , array[10] , min , max , i;
-
 };
 
 int chk::disp_min(){
-    
     return min;
 };
 
 int chk::disp_max(){
-    
-    return max;
+       return max;
 };
-
 
 
 int chk::enter_numbers(){
