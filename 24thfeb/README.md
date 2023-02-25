@@ -1,0 +1,1 @@
+check_mini_max.cpp ----> Comtains a code which calculates a min value and a maximum value in an array .
