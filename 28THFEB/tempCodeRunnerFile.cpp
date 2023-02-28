@@ -1,0 +1,1 @@
+    cout << "Accessing the protected integer with the help of function in a child class  " << endl;
