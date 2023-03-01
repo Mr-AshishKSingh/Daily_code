@@ -6,13 +6,15 @@ using namespace std;
 class ashish{
     private :
     int n ;
+    int seriess(int n);
 
     public:
 
     ashish(){
         n= 0;
+
     }
-    int seriess(int n);
+    
     friend class ashish1;
 };
 
@@ -58,6 +60,10 @@ int main() {
 
     ashish1 object1;
     object1.mutator(aa);
+    for(int i = 0 ; i <46 ; i++){
+        cout << "-" ;
+    }
+    cout << endl;
     object1.accessor(aa);
     return 0;
 
