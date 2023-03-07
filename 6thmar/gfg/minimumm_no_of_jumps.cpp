@@ -36,6 +36,8 @@ class mini{
 int main(){
     mini a;
     int n;
+    cout << "Enter the number of elements ";
+    
     cin>>n;
     a.insert(n);
     return 0;
