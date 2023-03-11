@@ -1,4 +1,4 @@
-
+// question to find a triplet in an array whose sum is zero 
 
 #include <iostream>
 using namespace std;
